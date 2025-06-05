@@ -1,11 +1,11 @@
 package model;
 import java.util.Date;
 
-public class Reserva {
+public class Reservas {
     private int id, pedido_id, quarto_id, adicional_id;
     private Date inicio, fim;
 
-    public Reserva(int pedido_id, int quarto_id, int adicional_id, Date inicio, Date fim) {
+    public Reservas(int pedido_id, int quarto_id, int adicional_id, Date inicio, Date fim) {
         this.pedido_id = pedido_id;
         this.quarto_id = quarto_id;
         this.adicional_id = adicional_id;

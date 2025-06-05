@@ -1,11 +1,11 @@
 package model;
 
-public class Adicional {
+public class Adicionais {
     private int id;
     private String nome;
     private Double preco;
 
-    public Adicional(String nome, Double preco) {
+    public Adicionais(String nome, Double preco) {
         this.nome = nome;
         this.preco = preco;
     }

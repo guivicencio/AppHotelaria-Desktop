@@ -9,7 +9,7 @@ import java.util.Properties;
 
 public class Conexao {
     private String driver ;
-                                        //jdbc:mysql://localhost:3306/dbHotel
+    //jdbc:mysql://localhost:3306/dbHotel
     private String url ;
     private String usuario ;
     private String senha ;
